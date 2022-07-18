@@ -1,0 +1,45 @@
+header {
+  height: 50px;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.kolom {
+  padding: 20px 20px;
+  box-shadow: 0px 3px 5px rgb(180, 180, 180);
+}
+
+p {
+  text-align: justify;
+  column-count: 4;
+  column-fill: balance;
+  column-rule: 2px solid black;
+}
+
+.judul_kolom {
+  column-span: all;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
